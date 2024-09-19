@@ -1,0 +1,5 @@
+# reading_list
+
+Project Title: Monthly Reading List
+
+The goal of the project is to recommend 5 books from the Complete 500 List collected by OCLC WorldCat database, the world's largest library catalog by OCLC, a nonprofit cooperative that connects thousands of member libraries worldwide. This 5 books recommended can be used as a monthly reading list for the user to gain knowledge on the top 500 timeless pieces of novels and become more informed of the best writings in the world of literatures. The program will save user the time to research on the most recommended pieces of literatures and dive into the world of reading with the best recommendations immediately. This can help the user to cultivate a consistent habit of reading 5 books monthly and be well-read. The project stands out in terms of its ease to use and reliabiity of book recommendations by basing book recommendation on an accurate book list from OCLC.
