@@ -1,32 +1,33 @@
-Purpose of data collection
-    The program collects a list of 500 books from The Complete 500 booklist from OCLC, a global library organisation that provides shared technology services, original research, and community programs for its membership and the library community at large. This list is based on how many libraries have a copy of a book on their selves. The list of books collected are identified as the top 500 timeless novels, those found in thousands of libraries around the world - using WorldCat, the world's largest database of library materials. The list was originally published in 2024. The program uses the list to randomly pick out 5 books as a Monthly Reading List for the user.
+Purpose of Data Collection
+The program gathers a list of 500 books from The Complete 500 Booklist, curated by OCLC, a global library organization that offers shared technology services, original research, and community programs to its members and the wider library community. This list is based on the number of libraries that hold copies of each book. Identified as the top 500 timeless novels, these books are found in thousands of libraries worldwide, according to WorldCat, the world's largest database of library materials. Originally published in 2024, the program uses this list to randomly select 5 books for a Monthly Reading List, providing users with curated literary recommendations.
 
-Data sources and robots.txt 
-url = https://www.oclc.org/en/worldcat/library100/top500.html
-        User-agent: *
-    Crawl-Delay: 5
-    Disallow: */contacts/all-contacts.*.html$
-    Disallow: */contacts/all-contacts/us-sales.*.html$
-    Disallow: */member-stories.*.html$
-    Disallow: */services/a-z.*.html$
-    Disallow: */services/a-z/*
-    Disallow: */developer/gallery.*.en.html$
-    Disallow: */developer/news.*.en.html$
-    Disallow: */developer/develop/web-services.*.en.html$
+Data Sources and robots.txt Compliance
+URL: https://www.oclc.org/en/worldcat/library100/top500.html
+javascript
+Copy code
+User-agent: *
+Crawl-Delay: 5
+Disallow: */contacts/all-contacts.*.html$
+Disallow: */contacts/all-contacts/us-sales.*.html$
+Disallow: */member-stories.*.html$
+Disallow: */services/a-z.*.html$
+Disallow: */services/a-z/*
+Disallow: */developer/gallery.*.en.html$
+Disallow: */developer/news.*.en.html$
+Disallow: */developer/develop/web-services.*.en.html$
 
-    User-agent: two
-    Disallow: /
+User-agent: two
+Disallow: /
 SITEMAP: https://www.oclc.org/sitemap.xml
 
-Respect the robots (url.com/robots.txt)
-    The program collects a list of book titles and author names from The Complete 500 List. There is no breach of scrapping disallowed content.
+Adherence to Robots.txt
+The program strictly follows the guidelines specified in the robots.txt file to ensure no restricted content is scraped. Only publicly accessible book titles and author names from The Complete 500 List are collected, ensuring compliance with data access rules.
 
-Limit scraping to avoid disruption
-    The information scrapped from the Complete 500 List is public content.
-    
-Data handling and privacy
-    No user data collected.
+Scraping Limitations to Prevent Disruption
+The information retrieved from The Complete 500 List consists of publicly available content. The scraping process is minimal and designed to avoid any disruption to the source website.
 
-Data usage
-    Collected data is for educational/research purposes only
+Data Handling and Privacy
+No user data is collected in the process.
 
+Data Usage
+The collected data is solely used for educational and research purposes.
